@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(assets/css/bootstrap.css);
+@import url(assets/css/main.css);
+@import url(assets/css/style.css);
+@import url(assets/css/media.css);
+@import url(assets/themify-icons/themify-icons.css);
+@import url(assets/css/swiper.min.css);
+@import url(assets/bootsnav/css/animate.css);
+@import url(assets/bootsnav/css/bootsnav.css);
+@import url(assets/magnific/css/magnific-popup.css);
+@import url(assets/video-popup/popup.css);
+@import url(assets/css/font-awesome.min.css);
+

@@ -325,6 +325,7 @@ label.bottom-caption {
  01.6 TESTIMONIAL SECTION
 ----------------------------------*/
 
+
 .testimonial {
     padding-bottom: 100px;
 }
@@ -906,7 +907,7 @@ nav.bootsnav.brand-center.small-logo .navbar-collapse .col-half.right {
 .wrapper-about {} .video-img-sec {
     width: 50%;
     float: left;
-    /*background: linear-gradient(to left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("../images/about-side.jpg") no-repeat center / cover;*/
+    background: linear-gradient(to left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("../../images/pablo.jpg") no-repeat center / cover;
     position: relative;
 }
 .video-img-sec .play-btn {
@@ -955,12 +956,16 @@ nav.bootsnav.brand-center.small-logo .navbar-collapse .col-half.right {
 ====================================*/
 
 .inner-banner.about-01 {
-    /*background: linear-gradient(to left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("../images/inner-1.jpg")no-repeat top center / cover;
-    */
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: linear-gradient(to left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("../../images/inner-banner/inner-niss.jpg")no-repeat top center / cover;
+
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .inner-banner.about-01 .extra-font h1 {
     mix-blend-mode: color-dodge;
